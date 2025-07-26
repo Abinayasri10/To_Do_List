@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  background-color: rgb(153, 146, 246);
+}
+
+.todo-container{
+  background-color: #d3ddfb;
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  max-width:600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+.todo-form{
+  padding:20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+.form-group{
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+  margin-bottom: 10px;
+}
+input{
+  padding: 15px;
+  border:1px solid rgb(55, 61, 249);
+  border-radius:5px;
+}
+button{
+  padding :10px;
+  border-radius:5px;
+  background-color: rgb(15, 2, 153);
+  color: white;
+  cursor: pointer;
+  width:30%;
+  margin-top:10px;
+}
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color:azure;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.form-buttons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.delete-button{
+  background-color: rgb(249, 62, 62);
+}
+
+.error{
+  color:#dc0202;
+  font-size: larger;
+}
+
+.edit-button{
+  background-color: rgb(15, 2, 153);
+  width: 20%;
+}
